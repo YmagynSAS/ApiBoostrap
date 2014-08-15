@@ -40,18 +40,6 @@ module.exports = function (grunt) {
                 command: 'npm install',
                 stdout: false,
                 stderr: false
-            },
-            ssh: {
-                cwd: "~/",
-                command: 'eval `ssh-agent` && ssh-add ~/.ssh/id_rsa',
-                stdout: false,
-                stderr: false
-            },
-            express_production: {
-                cwd: "./deploy/",
-                command: 'node app.js',
-                stdout: false,
-                stderr: false
             }
         },
         ymagyn_api_doc: {
