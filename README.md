@@ -6,7 +6,7 @@ Boostrap project for api definition
 Version
 ----
 
-2.0
+1.0
 
 Installation
 --------------
