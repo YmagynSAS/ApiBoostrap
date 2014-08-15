@@ -2,10 +2,9 @@
     "name": "ApiBoostrap",
     "version": "1.0.0",
     "description": "Boostrap project for api definition",
-    "scripts": {
-        "preinstall": "npm install /Users/cgiacopino/Documents/project/bbs_api_doc_builder_grunt_task"
-    },
+
     "devDependencies": {
+        "ymagyn_api_doc":"1.0.0",
         "async": "^0.9.0",
         "glob": "^4.0.0",
         "grunt": "^0.4.5",
