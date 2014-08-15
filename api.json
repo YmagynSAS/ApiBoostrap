@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://MY-BASE-API-APTH/",
+    "deployUrl": "http://MY-DOC-URL/",
+    "version": 1
+}
