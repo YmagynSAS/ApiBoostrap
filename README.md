@@ -15,5 +15,24 @@ Installation
 git clone git@github.com:YmagynSAS/ApiBoostrap.git MyApiDocs
 cd MyApiDocs
 npm install
-node app
+grunt init
+```
+
+Configuration
+--------------
+
+Configure api.json by setting "baseUrl" and "deploy_url" according to your configuration.
+
+```json
+{
+    "baseUrl": "http://MY-BASE-API-APTH/",
+    "deployUrl": "http://MY-DOC-URL/",
+    "version": 1
+}
+```
+Build
+--------------
+
+```sh
+grunt build
 ```
