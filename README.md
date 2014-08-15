@@ -21,7 +21,7 @@ grunt init
 Configuration
 --------------
 
-Configure api.json by setting "baseUrl" and "deploy_url" according to your configuration.
+Configure api.json by setting "baseUrl" and "deployUrl" according to your configuration.
 
 ```json
 {
