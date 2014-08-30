@@ -49,6 +49,12 @@ module.exports = function (grunt) {
                     basePath: './dev/api/'
                 }
             }
+        },
+        remove: {
+            options: {
+                trace: true
+            },
+            fileList: ['.gitignore']
         }
     });
 
@@ -62,7 +68,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-shell-spawn');
     grunt.loadNpmTasks('ymagyn_api_doc');
     grunt.loadNpmTasks('grunt-text-replace');
-
+    grunt.loadNpmTasks('grunt-remove');
 
     grunt.registerTask('build', [
         'ymagyn_api_doc:production',
@@ -70,6 +76,8 @@ module.exports = function (grunt) {
         'copyto:production'
     ]);
     grunt.registerTask('init', [
+        //'remove',
         'ymagyn_api_doc:production'
+
     ]);
 };
